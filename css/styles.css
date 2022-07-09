@@ -761,10 +761,6 @@ li {
         margin: auto;
 }
 
-/* .social-item {
-        display: flex;
-} */
-
 .team-social-list:not(:last-child) {
         margin-right: 10px;
 }
@@ -776,9 +772,6 @@ li {
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        /* margin-left: auto;
-        margin-right: auto; */
-        /* margin: auto; */
         fill: var(--icon-color);
 }
 
