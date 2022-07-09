@@ -765,9 +765,9 @@ li {
         display: flex;
 } */
 
-/* .team-social-icon:not(:last-child) {
+.team-social-list:not(:last-child) {
         margin-right: 10px;
-} */
+}
 
 .team-social-logo {
         display: flex;
