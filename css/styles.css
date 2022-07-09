@@ -11,6 +11,8 @@ Use a better box model (opinionated).
 ::before,
 ::after {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
 }
 
 /**
@@ -346,12 +348,16 @@ body {
 }
 
 ul {
+        padding: 0;
+        margin: 0;
         list-style: none;
         display: block;
 
 }
 
 li {
+        padding: 0;
+        margin: 0;
         display: list-item;
 }
 
@@ -609,9 +615,11 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 30px;
         width: 270px;
         height: 120px;
         background-color: var(--secondary-background-color);
+        border-radius: 4px;
 }
 
 .details-icon {
@@ -635,7 +643,7 @@ li {
                 text-transform: uppercase;
 }
 .details-text {
-                margin-bottom: 0;
+                /* margin-bottom: 0; */
                 font-size: 14px;
                 line-height: 1.71;
 }
@@ -761,7 +769,7 @@ li {
         margin: auto;
 }
 
-.team-social-list:not(:last-child) {
+.team-social-icon:not(:last-child) {
         margin-right: 10px;
 }
 
@@ -793,7 +801,8 @@ li {
                 margin-top: 0;
                 font-size: 36px;
                 line-height: 1.16;
-                color: var(--primary-text-color);     
+                color: var(--primary-text-color);
+                margin-bottom: 50px;
                 
 }
 
@@ -853,7 +862,6 @@ li {
 .address-box {
        
         margin-right: 70px;
-        padding-top: 60px;
 }
 
 .address-list__item:not(:last-child) {
@@ -874,9 +882,7 @@ li {
 
 /* Блок социальных сетей */
 
-.social-box {
-        padding-top: 72px;
-}
+
 
 .footer-tittle {
         margin-top: 0;
